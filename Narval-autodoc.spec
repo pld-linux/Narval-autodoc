@@ -5,13 +5,13 @@ Summary(pl):	Rozszerzenie Autodoc dla Narvala
 Name:		Narval-%{short_name}
 Version:	20011016
 Release:	1
-Source0:	ftp://ftp.logilab.org/pub/narval/applications/%{short_name}-%{version}.npm
-# Source0-md5:	e125f5fb7b34970436aa780186604c8c
 License:	GPL
 Group:		Applications
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+Source0:	ftp://ftp.logilab.org/pub/narval/applications/%{short_name}-%{version}.npm
+# Source0-md5:	e125f5fb7b34970436aa780186604c8c
+URL:		http://www.logilab.org/narval/app.html
 Requires:	Narval
-Url:		http://www.logilab.org/narval/app.html
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The Autodoc extension set is a Narval recipe that generates
@@ -22,8 +22,6 @@ Zestaw rozszerzeñ Autodoc jest recept± Narvala, która generuje
 dokumentacje dla dzia³añ, przekszta³ceñ i recept Narvala.
 
 %prep
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
