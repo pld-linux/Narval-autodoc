@@ -3,12 +3,12 @@
 Summary:	Autodoc extension for Narval
 Summary(pl):	Rozszerzenie Autodoc dla Narvala
 Name:		Narval-%{short_name}
-Version:	20011016
+Version:	20020220
 Release:	1
 License:	GPL
 Group:		Applications
 Source0:	ftp://ftp.logilab.org/pub/narval/applications/%{short_name}-%{version}.npm
-# Source0-md5:	e125f5fb7b34970436aa780186604c8c
+# Source0-md5:	1a415d413564387aaef72106a9f3f2ae
 URL:		http://www.logilab.org/narval/app.html
 Requires:	Narval
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
