@@ -1,7 +1,7 @@
 %define short_name autodoc
 
 Summary:	Autodoc extension for Narval
-Summary(pl.UTF-8):   Rozszerzenie Autodoc dla Narvala
+Summary(pl.UTF-8):	Rozszerzenie Autodoc dla Narvala
 Name:		Narval-%{short_name}
 Version:	20020220
 Release:	1
