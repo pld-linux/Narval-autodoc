@@ -1,7 +1,7 @@
 %define short_name autodoc
 
 Summary:	Autodoc extension for Narval
-Summary(pl):	Rozszerzenie Autodoc dla Narvala
+Summary(pl.UTF-8):   Rozszerzenie Autodoc dla Narvala
 Name:		Narval-%{short_name}
 Version:	20020220
 Release:	1
@@ -17,9 +17,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The Autodoc extension set is a Narval recipe that generates
 documentation for Narval actions, transformations and recipe.
 
-%description -l pl
-Zestaw rozszerzeÒ Autodoc jest recept± Narvala, ktÛra generuje
-dokumentacje dla dzia≥aÒ, przekszta≥ceÒ i recept Narvala.
+%description -l pl.UTF-8
+Zestaw rozszerze≈Ñ Autodoc jest receptƒÖ Narvala, kt√≥ra generuje
+dokumentacje dla dzia≈Ça≈Ñ, przekszta≈Çce≈Ñ i recept Narvala.
 
 %prep
 
